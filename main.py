@@ -5,6 +5,7 @@
 """
 
 import sys
+import os
 from PyQt5.QtWidgets import QApplication
 
 from src.ui_class.commit_ui import Commit_ui
@@ -12,7 +13,6 @@ from src.ui_class.main_ui import MainUI
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-
     myapp = MainUI()
     # myapp =Commit_ui()
     myapp.show()
